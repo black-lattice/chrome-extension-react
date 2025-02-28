@@ -1,0 +1,1 @@
+(dist/assets/index.[hash].js content)
