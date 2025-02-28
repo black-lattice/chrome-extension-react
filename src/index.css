@@ -17,6 +17,7 @@ html, body{
   padding: 0;
   width: 100%;
   height:  100%;
+  overflow: hidden;
 }
 #root {
   margin: 0 ;
@@ -25,4 +26,5 @@ html, body{
   height:  100%;
   position: relative;
   z-index: 1;
+  overflow: auto;
 }

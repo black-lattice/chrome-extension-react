@@ -3,6 +3,7 @@ import './App.less';
 import Search from './components/search/search';
 import BackgroundSwitcher from './components/background/background';
 import Bookmark from './components/bookmark/bookmark';
+import History from './components/history/history';
 import { ChromeBookmark } from './components/bookmark/types';
 
 function App() {
@@ -50,12 +51,9 @@ function App() {
       <Search />
       <BackgroundSwitcher />
       <Bookmark bookmarks={bookmarks} loading={loading} error={error} />
+      <History />
     </div>
   );
 }
 
-<<<<<<< HEAD
 export default App;
-=======
-export default App;
->>>>>>> main
